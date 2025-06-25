@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "freaklandwebcambubbles-server",
+  "version": "${version}",
+  "name": "FreakLand Webcam Bubbles Server",
+  "description": "Server-side component for FreakLand Webcam Bubbles",
+  "authors": [
+    "n1kromant"
+  ],
+  "contact": {
+    "sources": "https://github.com/n1kromant/freaklandwebcambubbles-server"
+  },
+  "license": "MIT",
+  "icon": "assets/freaklandwebcambubbles-server/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "kz.denver.freaklandwebcambubbles.server.FreakLandWebcamBubblesServer"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.21",
+    "java": ">=17"
+  }
+}

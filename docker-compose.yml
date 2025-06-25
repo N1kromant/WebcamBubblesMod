@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  minecraft:
+    build: .
+    container_name: freakland-webcam-server
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./world:/minecraft/world
+      - ./logs:/minecraft/logs
+    environment:
+      - EULA=TRUE
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
