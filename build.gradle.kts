@@ -36,10 +36,12 @@ tasks.processResources {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
     withSourcesJar()
 }
+
 
 tasks.withType<JavaCompile> {
     options.release.set(17)
