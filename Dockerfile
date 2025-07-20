@@ -7,7 +7,7 @@ RUN apk add --no-cache wget bash
 WORKDIR /minecraft
 
 # Download Fabric server launcher
-RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/jar -O fabric-server-launch.jar
+RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.14/1.0.1/server/jar -O fabric-server-launch.jar
 
 # Copy the mod
 COPY build/libs/freaklandwebcambubbles-server-*.jar mods/
