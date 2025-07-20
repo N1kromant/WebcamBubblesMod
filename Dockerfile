@@ -10,7 +10,7 @@ WORKDIR /minecraft
 RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.14/1.0.1/server/jar -O fabric-server-launch.jar
 
 # Copy the mod
-COPY build/libs/freaklandwebcambubbles-server-*.jar mods/
+COPY build/libs/webcambubbles-server-*.jar mods/
 
 # Create eula.txt
 RUN echo "eula=true" > eula.txt
