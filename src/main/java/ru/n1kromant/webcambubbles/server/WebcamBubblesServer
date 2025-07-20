@@ -1,4 +1,4 @@
-package ru.n1kromant.webcambubbles.server.webcambubblesserver;
+package ru.n1kromant.webcambubbles.server;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.networking.v1.*;

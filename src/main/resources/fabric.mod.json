@@ -6,15 +6,15 @@
   "description": "Server-side handler for webcam bubbles mod",
   "authors": ["Your Name"],
   "contact": {
-    "homepage": "https://github.com/yourusername/webcambubblesserver",
-    "sources": "https://github.com/yourusername/webcambubblesserver"
+    "homepage": "https://github.com/N1kromant/WebcamBubblesMod",
+    "sources": "https://github.com/N1kromant/WebcamBubblesMod"
   },
   "license": "MIT",
   "icon": "assets/webcambubblesserver/icon.png",
   "environment": "server",
   "entrypoints": {
     "main": [
-      "kz.denver.webcambubblesserver.WebcamBubblesServer"
+      "ru.n1kromant.webcambubbles.server.WebcamBubblesServer"
     ]
   },
   "mixins": [],
