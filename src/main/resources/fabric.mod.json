@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "webcambubblesserver",
-  "version": "1.0.0",
+  "version": "1.4.88",
   "name": "Webcam Bubbles Server",
   "description": "Server-side handler for webcam bubbles mod",
-  "authors": ["Your Name"],
+  "authors": ["n1kromant"],
   "contact": {
     "homepage": "https://github.com/N1kromant/WebcamBubblesMod",
     "sources": "https://github.com/N1kromant/WebcamBubblesMod"
