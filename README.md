@@ -1,4 +1,4 @@
-# Webcam Bubbles серверная часть мода
+# Freakland Webcam Bubbles серверная часть мода
 
 Серверная часть мода FreakLand Webcam Bubbles для Minecraft Fabric.
 
